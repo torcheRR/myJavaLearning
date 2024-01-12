@@ -13,7 +13,7 @@ public class Circle extends TwoDimensional{
 
     @Override
     public double getAlan() {
-        return getR()*Math.PI;
+        return Math.PI*Math.pow(getR(),2);
     }
 
     @Override
